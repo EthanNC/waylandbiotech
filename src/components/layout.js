@@ -8,7 +8,7 @@
 import React from "react"
 import PropTypes from "prop-types"
 import { useStaticQuery, graphql } from "gatsby"
-
+import science from "../images/science.png"
 import Header from "./header"
 import "./layout.css"
 
@@ -24,20 +24,20 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    <>
+    < >
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
+        // style={{
+        //   margin: `0 auto`,
+        //   maxWidth: 960,
+        //   padding: `0 1.0875rem 1.45rem`,
+        // }}
+        class="flex h-screen flex-col"
       >
-        <main>{children}</main>
-        <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
+        <main class="mb-auto px-4 py-2" >{children}</main>
+        <footer class="bg-black text-white items-center py-2">
+          
+           <a class="px-4">{new Date().getFullYear()} Wayland Biotechnology LLC</a>
         </footer>
       </div>
     </>
