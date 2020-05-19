@@ -32,9 +32,12 @@ const Layout = ({ children }) => {
         //   maxWidth: 960,
         //   padding: `0 1.0875rem 1.45rem`,
         // }}
+        // style={{
+        //   backgroundImage: `url(${science})`
+        // }}
         class="flex h-screen flex-col"
       >
-        <main class="mb-auto px-4 py-2" >{children}</main>
+        <main class="mb-auto" >{children}</main>
         <footer class="bg-black text-white items-center py-2">
           
            <a class="px-4">{new Date().getFullYear()} Wayland Biotechnology LLC</a>
