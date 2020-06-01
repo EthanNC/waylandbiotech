@@ -24,23 +24,14 @@ const Layout = ({ children }) => {
   `)
 
   return (
-    < >
+    <>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
-        // style={{
-        //   margin: `0 auto`,
-        //   maxWidth: 960,
-        //   padding: `0 1.0875rem 1.45rem`,
-        // }}
-        // style={{
-        //   backgroundImage: `url(${science})`
-        // }}
         class="flex h-screen flex-col"
       >
         <main class="mb-auto" >{children}</main>
         <footer class="bg-black text-white items-center py-2">
-          
-           <a class="px-4">{new Date().getFullYear()} Wayland Biotechnology LLC</a>
+           <a class="px-4">{new Date().getFullYear()} Wayland Biotherapeutics, LLC</a>
         </footer>
       </div>
     </>

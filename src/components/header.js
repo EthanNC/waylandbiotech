@@ -30,7 +30,7 @@ const Header = ({ siteTitle }) => {
           <Link to='/covid/' activeClassName="text-red-500" class="text-white hover:text-red-500" >CoVID-19</Link>
         </li>
         <li class="mr-6 p-1">
-          <Link to='/platform/' activeClassName="text-red-500"class="text-white hover:text-red-500" >Platform</Link>
+          <Link to='/platform/' activeClassName="text-red-500"class="text-white hover:text-red-500" >Our Science</Link>
         </li>
         <li class="mr-6 p-1">
           <Link to='/contact/' activeClassName="text-red-500" class="text-white hover:text-red-500" >Contact</Link>
@@ -48,7 +48,7 @@ const Header = ({ siteTitle }) => {
           <Link to='/covid/' activeClassName="text-red-500" class="text-white hover:text-red-500" >CoVID-19</Link>
         </li>
         <li class="mr-6 p-1">
-          <Link to='/platform/' activeClassName="text-red-500"class="text-white hover:text-red-500" >Platform</Link>
+          <Link to='/platform/' activeClassName="text-red-500"class="text-white hover:text-red-500" >Our Science</Link>
         </li>
         <li class="mr-6 p-1">
           <Link to='/contact/' activeClassName="text-red-500" class="text-white hover:text-red-500" >Contact</Link>
