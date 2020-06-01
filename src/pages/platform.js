@@ -5,9 +5,6 @@ import SEO from "../components/seo"
 const Platform = () => (
     <Layout>
       <SEO title="Platform" />
-
-        {/* <div>Cancer</div>
-        <div>Infectious Diseases</div> */}
            <div class="bg-white">
             <div class="py-24  px-8 md:px-32 lg:px-64">
             <h1 class="text-center text-2xl font-bold">Our Science</h1>
