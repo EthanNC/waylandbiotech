@@ -34,7 +34,7 @@ const About = () => (
             <div class="p-4 mt-8">
                 <h1 class="text-center text-2xl font-bold" >Misson</h1>
                 <p class="mt-2">
-                Our mission is to discover and develop novel biologics exploiting receptor decoy technology to create novel medicines for the treatment of human diseases such as cancer and infectious disease. 
+                Our mission is to discover and develop novel biologics exploiting the biology of LY6E and related molecules to create novel medicines for the treatment of human diseases such as cancer and infectious disease. 
               </p>
             </div>
             </div>
