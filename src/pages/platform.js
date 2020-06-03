@@ -1,6 +1,8 @@
 import React from 'react'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import protein from "../images/sprotein.png"
+import cancer from "../images/cancer.png"
 
 const Platform = () => (
     <Layout>
@@ -8,7 +10,6 @@ const Platform = () => (
            <div class="bg-white">
             <div class="py-24  px-8 md:px-32 lg:px-64">
             <h1 class="text-center text-2xl font-bold">Our Science</h1>
-
             <div class="font-bold m-2">About Receptor Decoys</div>
             <p class="mt-2">A decoy receptor is a molecule that binds to a specific ligand outside of its normal biological context. In their original construct, decoy receptors targeted inflammatory cytokines but were otherwise incapable of signaling. Thus, they are negative regulators which act as molecular traps for a ligand and its cognate signaling receptor.  Or, decoy receptors can serve as a scavenger receptor, driving ligands to alternate functional targets, for example, such as specific cell types or cellular degradative compartments.</p>
             <p class="mt-2">When used by protein engineers, receptor decoys can be instruments of manipulation, created using molecular biology and biotechnology techniques to achieve select scientific or medical goals. Indeed, Enbrel®, Eylea®, and Kineret® are all examples of FDA-approved biologics currently used to treat a variety of medical conditions.</p>
@@ -25,6 +26,7 @@ const Platform = () => (
             <p class="mt-2">
             More recent observations have captured the attention of Wayland Biotherapeutics, especially as regards novel therapeutic approaches to viral infections and cancer. LY6E is an interferon stimulating gene and is thus an important component of innate immune defense against viruses and cancer. In addition, LY6E has emerged as an exciting new target for therapeutic intervention in cancer. Finally, it has been reported that LY6E restricts the infectivity of most human coronaviruses including SARS-CoV-2, the causative agent of Covid-19 infections.
             </p>
+            <img class="pt-8 pb-4" src={cancer}/>
             <div class="font-bold m-2">Cancer</div>
             <p class="mt-2">
             Targeting LY6E in cancer is an exciting new opportunity for a couple of reasons. Increased expression of LY6E is associated with poor overall survival in renal papillary cell carcinoma and in pancreatic ductal adenocarcinoma.  On the other hand, elevated expression of LY6E is associated with better long-term survival in renal clear cell cancer.  Indeed, LY6E is broadly expressed at high levels in diverse cancer types including several cancers currently with limited therapeutic options and poor outlooks. These challenging cancers include ovarian, pancreatic, lung, gastric, and triple-negative breast cancer.
@@ -32,6 +34,7 @@ const Platform = () => (
             <p class="mt-2">
             Wayland Biotherapeutics is focused on the application of engineered chimeric antigen receptors containing LY6E expressed in either T-cells or NK cells (CAR-T or CAR-NK) as novel cell therapeutics for the treatment of the most challenging cancers. 
             </p>
+            <img src={protein}/>
             <div class="font-bold m-2">Infectious Viral Disease</div>
             <p class="mt-2">
             Initial reports on LY6E and viral infections largely established a genetic association between LY6E and susceptibility to viruses such as Marek's disease virus (MDV), mouse adenovirus type 1 (MAV-1), and HIV-1. More detailed studies illuminated cell type-specific and differing roles for LY6E in HIV infection, one role where LY6E promotes HIV infection in CD4 high cells, but also a role where it inhibits HIV infection in CD4low cells. Similarly, several studies found that LY6E enhances infection for a select number of enveloped RNA viruses including flaviviruses (yellow fever virus, dengue virus, Zika virus, West Nile virus) and influenza A virus. Thus, LY6E modulates the entry of infectious viruses in a cell-type and virus-specific manner. 
