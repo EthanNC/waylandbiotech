@@ -6,7 +6,6 @@ const Contact = () => (
     <Layout>
       <SEO title="Contact Us" />
       <div class="flex items-center justify-center p-4 py-64 bg-white">
-
       <form class="w-full max-w-lg" name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
         <input type="hidden" name="bot-field" />
         <input type="hidden" name="form-name" value="contact" />

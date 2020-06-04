@@ -56,7 +56,7 @@ const IndexPage = () => (
     </div>
     <div class="w-full px-8 text-gray-300 mt-4 lg:max-w-screen-md">
     <div class="text-3xl uppercase"> Our Science </div>
-    <div class="">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Repellendus eius ullam aperiam ipsam explicabo, incidunt accusamus nulla et perferendis illo blanditiis nesciunt! Mollitia, consequuntur laudantium ipsum eum temporibus assumenda ad</div>
+    <div class="">What could be more exciting than mining a large ensemble of structurally related proteins, the LY6/uPAR superfamily, looking to harvest new therapeutic opportunities to tackle human disease?</div>
     <Link to="platform">
           <button class="float-right underline mr-8 text-white font-bold hover:text-red-500">
             Read On
