@@ -2,6 +2,7 @@ import React from 'react'
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import image from "../images/covid.jpg"
+import Video from "../components/video"
 import budding from "../images/budding.jpg"
 const Covid = () => (
     <Layout>
@@ -9,8 +10,8 @@ const Covid = () => (
       <div class="bg-white">
             <div class="py-24 px-8 md:px-32 lg:px-64">
             <figure>
-            <img src={image} class=" "/>
-            <figcaption class="leading-tight text-xs float-right text-gray-800">Source: NIAID</figcaption>
+            <Video src="/covid.mp4"/>
+            {/* <figcaption class="leading-tight text-xs float-right text-gray-800">Source: NIAID</figcaption> */}
             </figure>
             <h1 class="text-center text-2xl font-bold my-8">Pursuing a Rapid Response to the Pandemic of the Century</h1>
             <p class="mt-4">Wayland Biotherapeutics is seeking to meet the unique biomedical challenge presented by the current pandemic outbreak of the coronavirus SARS-CoV-2, the causative agent of Covid-19. There are currently no vaccines for SARS-CoV-2 and there are no approved therapeutic agents that can significantly impact the course of the pandemic outbreak. Wayland Biotherapeutics is committed to bringing just such a new therapeutic agent to the clinic in a timeframe and quantity to meaningfully impact the current outbreak.</p>
